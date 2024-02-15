@@ -1,0 +1,28 @@
+/* .text_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 20px;
+}
+:root {
+  --main-bg-color: #4e4e4e;
+}
+
+nav ul li a{
+color: white;
+text-decoration: none;
+}
+nav ul li a:hover{
+  color: rgb(162, 162, 209);
+  font-weight:bold;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 20px;
+} */

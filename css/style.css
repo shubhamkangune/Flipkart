@@ -8,7 +8,7 @@ body{
   /* box-shadow: 0 0 0 2px red; */
 }
 header{
-  height: 70px;
+  /* height: 70px; */
   background-color: var(--main-bg-color) ;
   font-family:Arial,sans-serif;
 }
@@ -27,7 +27,7 @@ nav{
   padding: 20px 10px;
 }
 .logo img{
-  width: 7rem;
+  width: 100px;
 }
 .under-logo{
   display: flex;
@@ -38,9 +38,9 @@ nav{
   /* justify-content: flex-start; */
 }
 .search input{
-  /* height: 30px;
-  width:300px; */
-  justify-content:left;
+  height: 2vh;
+  width:20vw;
+  /* justify-content:left; */
   border-radius: 5px;
   padding: 0.5rem 2rem;
   /* margin-left: -161px; */
@@ -99,6 +99,10 @@ nav ul{
   margin: auto;
   width: fit-content;
   margin-top: 10px;
+  overflow: hidden;
+}
+.slider img{
+  width: 80vw;
 }
 .card{
   max-width: 90vw;
@@ -125,8 +129,12 @@ nav ul{
 }
 .card h2{
   padding: 15px 0px;
-  
+ 
 }
 .text-center{
   text-align: center;
+}
+.input_serch{
+  display: flex;
+  gap: 10px;
 }

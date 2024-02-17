@@ -1,0 +1,38 @@
+@media screen and (max-width:1000px) {
+  body{
+    /* background-color: red; */
+  }
+  nav{
+    flex-direction: column;
+  }
+  .logo{
+    padding: 0.7rem 0rem;
+    display: flex;
+    position: absolute;
+  }
+  nav .logo_serch{
+    flex-direction: column;
+
+  }
+  nav ul{
+    justify-content: center;
+  }
+  .input_serch{
+    display: flex;
+    gap: 60px;
+    margin-top: 45px;
+  }
+   .slider{
+    width: 80vw;
+    margin: auto;
+   }
+   .slider img{
+    width: 80vh;
+   }
+   .card-item{
+    width: 150px;
+   }
+   .cards{
+    display: flex;
+   }
+}

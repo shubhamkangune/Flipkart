@@ -27,12 +27,16 @@
     margin: auto;
    }
    .slider img{
-    width: 80vh;
+    width: 87vw;
+    margin-top: 10px;
    }
    .card-item{
-    width: 150px;
+    width: 120px;
    }
    .cards{
     display: flex;
+   }
+   footer{
+    height: 10vh;
    }
 }
